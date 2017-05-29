@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078C251E1EDAD0B900647A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C251D1EDAD0B900647A48 /* AppDelegate.swift */; };
+		078C25201EDAD0B900647A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C251F1EDAD0B900647A48 /* ViewController.swift */; };
+		078C25231EDAD0B900647A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078C25211EDAD0B900647A48 /* Main.storyboard */; };
+		078C25251EDAD0B900647A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078C25241EDAD0B900647A48 /* Assets.xcassets */; };
+		078C25281EDAD0B900647A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078C25261EDAD0B900647A48 /* LaunchScreen.storyboard */; };
+		078C25301EDAD11C00647A48 /* Sico2SicoFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C252F1EDAD11C00647A48 /* Sico2SicoFlowLayout.swift */; };
+		078C25321EDBA96400647A48 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C25311EDBA96400647A48 /* UIColor-Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		078C251A1EDAD0B900647A48 /* WaterfallFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterfallFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078C251D1EDAD0B900647A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		078C251F1EDAD0B900647A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		078C25221EDAD0B900647A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		078C25241EDAD0B900647A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		078C25271EDAD0B900647A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		078C25291EDAD0B900647A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078C252F1EDAD11C00647A48 /* Sico2SicoFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sico2SicoFlowLayout.swift; sourceTree = "<group>"; };
+		078C25311EDBA96400647A48 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078C25171EDAD0B900647A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078C25111EDAD0B900647A48 = {
+			isa = PBXGroup;
+			children = (
+				078C251C1EDAD0B900647A48 /* WaterfallFlow */,
+				078C251B1EDAD0B900647A48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		078C251B1EDAD0B900647A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078C251A1EDAD0B900647A48 /* WaterfallFlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078C251C1EDAD0B900647A48 /* WaterfallFlow */ = {
+			isa = PBXGroup;
+			children = (
+				078C251D1EDAD0B900647A48 /* AppDelegate.swift */,
+				078C251F1EDAD0B900647A48 /* ViewController.swift */,
+				078C252F1EDAD11C00647A48 /* Sico2SicoFlowLayout.swift */,
+				078C25311EDBA96400647A48 /* UIColor-Extension.swift */,
+				078C25211EDAD0B900647A48 /* Main.storyboard */,
+				078C25241EDAD0B900647A48 /* Assets.xcassets */,
+				078C25261EDAD0B900647A48 /* LaunchScreen.storyboard */,
+				078C25291EDAD0B900647A48 /* Info.plist */,
+			);
+			path = WaterfallFlow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078C25191EDAD0B900647A48 /* WaterfallFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078C252C1EDAD0B900647A48 /* Build configuration list for PBXNativeTarget "WaterfallFlow" */;
+			buildPhases = (
+				078C25161EDAD0B900647A48 /* Sources */,
+				078C25171EDAD0B900647A48 /* Frameworks */,
+				078C25181EDAD0B900647A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterfallFlow;
+			productName = WaterfallFlow;
+			productReference = 078C251A1EDAD0B900647A48 /* WaterfallFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078C25121EDAD0B900647A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sico2Sico;
+				TargetAttributes = {
+					078C25191EDAD0B900647A48 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2TV8766467;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 078C25151EDAD0B900647A48 /* Build configuration list for PBXProject "WaterfallFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 078C25111EDAD0B900647A48;
+			productRefGroup = 078C251B1EDAD0B900647A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078C25191EDAD0B900647A48 /* WaterfallFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078C25181EDAD0B900647A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C25281EDAD0B900647A48 /* LaunchScreen.storyboard in Resources */,
+				078C25251EDAD0B900647A48 /* Assets.xcassets in Resources */,
+				078C25231EDAD0B900647A48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078C25161EDAD0B900647A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C25201EDAD0B900647A48 /* ViewController.swift in Sources */,
+				078C25321EDBA96400647A48 /* UIColor-Extension.swift in Sources */,
+				078C25301EDAD11C00647A48 /* Sico2SicoFlowLayout.swift in Sources */,
+				078C251E1EDAD0B900647A48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		078C25211EDAD0B900647A48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078C25221EDAD0B900647A48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		078C25261EDAD0B900647A48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078C25271EDAD0B900647A48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		078C252A1EDAD0B900647A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		078C252B1EDAD0B900647A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		078C252D1EDAD0B900647A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2TV8766467;
+				INFOPLIST_FILE = WaterfallFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoepp.store.WaterfallFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		078C252E1EDAD0B900647A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2TV8766467;
+				INFOPLIST_FILE = WaterfallFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoepp.store.WaterfallFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078C25151EDAD0B900647A48 /* Build configuration list for PBXProject "WaterfallFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C252A1EDAD0B900647A48 /* Debug */,
+				078C252B1EDAD0B900647A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078C252C1EDAD0B900647A48 /* Build configuration list for PBXNativeTarget "WaterfallFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C252D1EDAD0B900647A48 /* Debug */,
+				078C252E1EDAD0B900647A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078C25121EDAD0B900647A48 /* Project object */;
+}
